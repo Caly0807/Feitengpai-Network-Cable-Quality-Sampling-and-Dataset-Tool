@@ -1,0 +1,50 @@
+﻿__CABLE_BEGIN__:ip_addr
+[{"ifindex":2,"ifname":"eth0","flags":["BROADCAST","MULTICAST","UP","LOWER_UP"],"mtu":1500,"qdisc":"mq","operstate":"UP","group":"default","txqlen":1000,"link_type":"ether","address":"24:dc:0f:07:82:a8","broadcast":"ff:ff:ff:ff:ff:ff","addr_info":[{"family":"inet","local":"192.168.10.35","prefixlen":24,"broadcast":"192.168.10.255","scope":"global","dynamic":true,"label":"eth0","valid_life_time":6051,"preferred_life_time":6051}]}]
+__CABLE_RC__:ip_addr:0
+__CABLE_END__:ip_addr
+__CABLE_BEGIN__:carrier
+1
+__CABLE_RC__:carrier:0
+__CABLE_END__:carrier
+__CABLE_BEGIN__:ethtool
+Cannot get wake-on-lan settings: Operation not permitted
+Settings for eth0:
+	Supported ports: [ TP MII ]
+	Supported link modes:   10baseT/Half 10baseT/Full 
+	                        100baseT/Half 100baseT/Full 
+	                        1000baseT/Half 1000baseT/Full 
+	Supported pause frame use: Transmit-only
+	Supports auto-negotiation: Yes
+	Supported FEC modes: Not reported
+	Advertised link modes:  10baseT/Half 10baseT/Full 
+	                        100baseT/Half 100baseT/Full 
+	                        1000baseT/Half 1000baseT/Full 
+	Advertised pause frame use: Transmit-only
+	Advertised auto-negotiation: Yes
+	Advertised FEC modes: Not reported
+	Speed: 100Mb/s
+	Duplex: Full
+	Port: Twisted Pair
+	PHYAD: 0
+	Transceiver: internal
+	Auto-negotiation: on
+	MDI-X: Unknown
+	Link detected: yes
+__CABLE_RC__:ethtool:0
+__CABLE_END__:ethtool
+__CABLE_BEGIN__:stats_before
+rx_bytes=96104
+tx_bytes=90902
+rx_packets=952
+tx_packets=716
+rx_errors=199
+tx_errors=0
+rx_dropped=0
+tx_dropped=0
+collisions=0
+rx_crc_errors=199
+rx_frame_errors=0
+tx_carrier_errors=0
+__CABLE_RC__:stats_before:0
+__CABLE_END__:stats_before
+sh: 54: Syntax error: end of file unexpected (expecting "fi")

@@ -1,0 +1,2 @@
+# 当前采样脚本只使用 Python 标准库，不需要额外安装依赖。
+# 后续如果添加数据分析脚本，可以再按需加入 pandas、matplotlib、scikit-learn 等库。

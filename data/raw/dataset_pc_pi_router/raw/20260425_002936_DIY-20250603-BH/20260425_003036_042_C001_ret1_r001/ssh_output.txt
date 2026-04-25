@@ -1,0 +1,177 @@
+﻿__CABLE_BEGIN__:ip_addr
+[{"ifindex":2,"ifname":"eth0","flags":["BROADCAST","MULTICAST","UP","LOWER_UP"],"mtu":1500,"qdisc":"mq","operstate":"UP","group":"default","txqlen":1000,"link_type":"ether","address":"24:dc:0f:07:82:a8","broadcast":"ff:ff:ff:ff:ff:ff","addr_info":[{"family":"inet","local":"192.168.10.35","prefixlen":24,"broadcast":"192.168.10.255","scope":"global","dynamic":true,"label":"eth0","valid_life_time":5802,"preferred_life_time":5802}]}]
+__CABLE_RC__:ip_addr:0
+__CABLE_END__:ip_addr
+__CABLE_BEGIN__:carrier
+1
+__CABLE_RC__:carrier:0
+__CABLE_END__:carrier
+__CABLE_BEGIN__:ethtool
+Cannot get wake-on-lan settings: Operation not permitted
+Settings for eth0:
+	Supported ports: [ TP MII ]
+	Supported link modes:   10baseT/Half 10baseT/Full 
+	                        100baseT/Half 100baseT/Full 
+	                        1000baseT/Half 1000baseT/Full 
+	Supported pause frame use: Transmit-only
+	Supports auto-negotiation: Yes
+	Supported FEC modes: Not reported
+	Advertised link modes:  10baseT/Half 10baseT/Full 
+	                        100baseT/Half 100baseT/Full 
+	                        1000baseT/Half 1000baseT/Full 
+	Advertised pause frame use: Transmit-only
+	Advertised auto-negotiation: Yes
+	Advertised FEC modes: Not reported
+	Speed: 100Mb/s
+	Duplex: Full
+	Port: Twisted Pair
+	PHYAD: 0
+	Transceiver: internal
+	Auto-negotiation: on
+	MDI-X: Unknown
+	Link detected: yes
+__CABLE_RC__:ethtool:0
+__CABLE_END__:ethtool
+__CABLE_BEGIN__:stats_before
+rx_bytes=133973
+tx_bytes=139762
+rx_packets=1146
+tx_packets=961
+rx_errors=199
+tx_errors=0
+rx_dropped=0
+tx_dropped=0
+collisions=0
+rx_crc_errors=199
+rx_frame_errors=0
+tx_carrier_errors=0
+__CABLE_RC__:stats_before:0
+__CABLE_END__:stats_before
+__CABLE_BEGIN__:ping
+PING 192.168.10.1 (192.168.10.1) 56(84) bytes of data.
+64 bytes from 192.168.10.1: icmp_seq=1 ttl=64 time=0.541 ms
+64 bytes from 192.168.10.1: icmp_seq=2 ttl=64 time=0.547 ms
+64 bytes from 192.168.10.1: icmp_seq=3 ttl=64 time=0.560 ms
+64 bytes from 192.168.10.1: icmp_seq=4 ttl=64 time=0.530 ms
+64 bytes from 192.168.10.1: icmp_seq=5 ttl=64 time=0.539 ms
+64 bytes from 192.168.10.1: icmp_seq=6 ttl=64 time=0.535 ms
+64 bytes from 192.168.10.1: icmp_seq=7 ttl=64 time=0.525 ms
+64 bytes from 192.168.10.1: icmp_seq=8 ttl=64 time=0.527 ms
+64 bytes from 192.168.10.1: icmp_seq=9 ttl=64 time=0.530 ms
+64 bytes from 192.168.10.1: icmp_seq=10 ttl=64 time=0.530 ms
+
+--- 192.168.10.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9197ms
+rtt min/avg/max/mdev = 0.525/0.536/0.560/0.010 ms
+__CABLE_RC__:ping:0
+__CABLE_END__:ping
+__CABLE_BEGIN__:stats_after
+rx_bytes=135733
+tx_bytes=144450
+rx_packets=1176
+tx_packets=999
+rx_errors=199
+tx_errors=0
+rx_dropped=0
+tx_dropped=0
+collisions=0
+rx_crc_errors=199
+rx_frame_errors=0
+tx_carrier_errors=0
+__CABLE_RC__:stats_after:0
+__CABLE_END__:stats_after
+__CABLE_BEGIN__:ethtool_stats
+NIC statistics:
+     tx_octets: 149518
+     tx_frames: 1009
+     tx_broadcast_frames: 52
+     tx_multicast_frames: 175
+     tx_pause_frames: 0
+     tx_64_byte_frames: 119
+     tx_65_127_byte_frames: 616
+     tx_128_255_byte_frames: 165
+     tx_256_511_byte_frames: 79
+     tx_512_1023_byte_frames: 19
+     tx_1024_1518_byte_frames: 11
+     tx_greater_than_1518_byte_frames: 0
+     tx_underrun: 0
+     tx_single_collision_frames: 0
+     tx_multiple_collision_frames: 0
+     tx_excessive_collisions: 0
+     tx_late_collisions: 0
+     tx_deferred_frames: 0
+     tx_carrier_sense_errors: 0
+     rx_octets: 157267
+     rx_frames: 1181
+     rx_broadcast_frames: 120
+     rx_multicast_frames: 343
+     rx_pause_frames: 0
+     rx_64_byte_frames: 288
+     rx_65_127_byte_frames: 766
+     rx_128_255_byte_frames: 55
+     rx_256_511_byte_frames: 32
+     rx_512_1023_byte_frames: 15
+     rx_1024_1518_byte_frames: 25
+     rx_greater_than_1518_byte_frames: 0
+     rx_undersized_frames: 0
+     rx_oversize_frames: 0
+     rx_jabbers: 0
+     rx_frame_check_sequence_errors: 199
+     rx_length_field_frame_errors: 0
+     rx_symbol_errors: 0
+     rx_alignment_errors: 0
+     rx_resource_errors: 0
+     rx_overruns: 0
+     rx_ip_header_checksum_errors: 0
+     rx_tcp_checksum_errors: 0
+     rx_udp_checksum_errors: 0
+     q0_rx_packets: 1181
+     q0_rx_bytes: 136009
+     q0_rx_dropped: 0
+     q0_tx_packets: 73
+     q0_tx_bytes: 10749
+     q0_tx_dropped: 0
+     q1_rx_packets: 0
+     q1_rx_bytes: 0
+     q1_rx_dropped: 0
+     q1_tx_packets: 224
+     q1_tx_bytes: 20020
+     q1_tx_dropped: 0
+     q2_rx_packets: 0
+     q2_rx_bytes: 0
+     q2_rx_dropped: 0
+     q2_tx_packets: 26
+     q2_tx_bytes: 1944
+     q2_tx_dropped: 0
+     q3_rx_packets: 0
+     q3_rx_bytes: 0
+     q3_rx_dropped: 0
+     q3_tx_packets: 209
+     q3_tx_bytes: 31987
+     q3_tx_dropped: 0
+     q4_rx_packets: 0
+     q4_rx_bytes: 0
+     q4_rx_dropped: 0
+     q4_tx_packets: 135
+     q4_tx_bytes: 20847
+     q4_tx_dropped: 0
+     q5_rx_packets: 0
+     q5_rx_bytes: 0
+     q5_rx_dropped: 0
+     q5_tx_packets: 183
+     q5_tx_bytes: 35810
+     q5_tx_dropped: 0
+     q6_rx_packets: 0
+     q6_rx_bytes: 0
+     q6_rx_dropped: 0
+     q6_tx_packets: 121
+     q6_tx_bytes: 20233
+     q6_tx_dropped: 0
+     q7_rx_packets: 0
+     q7_rx_bytes: 0
+     q7_rx_dropped: 0
+     q7_tx_packets: 38
+     q7_tx_bytes: 4212
+     q7_tx_dropped: 0
+__CABLE_RC__:ethtool_stats:0
+__CABLE_END__:ethtool_stats

@@ -1,0 +1,8 @@
+cable_id,label,fault_type,category,length_m,notes,samples_per_cable,enabled
+G001,good,good,Cat6,2,正常基准线,5,1
+G002,good,good,Cat6,2,正常基准线,5,1
+O001,open,open_unknown,Cat6,2,已知断路故障线,5,1
+S001,short,short_unknown,Cat6,2,已知短路故障线,5,1
+C001,cross,cross,Cat6,2,线序交叉故障线,5,1
+P001,poor,poor_contact,Cat6,2,接触不良或压接不稳定,5,1
+L001,long,long,Cat6,30,长线或明显衰减线,5,1
